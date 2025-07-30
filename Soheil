@@ -1,0 +1,445 @@
+#profile-title: base64:QEhpZGRpZnlfTmV4dHR0INqp2KfZhtin2YQg2KrZhNqv2LHYp9mF24wg2YXYpyA=
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=1756675200
+#support-url: https://t.me/hiddify_nexttt
+#profile-web-page-url: https://github.com/Amirhosein08585
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "output": "",
+    "timestamp": false
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:20123",
+      "external_ui": "",
+      "external_ui_download_url": "",
+      "secret": "4f7a849decff576d169317a8047fbac2a2f0b29735e68d938d267989fdc7f4ca",
+      "default_mode": "rule",
+      "access_control_allow_origin": ["*"],
+      "access_control_allow_private_network": false
+    },
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db",
+      "cache_id": "",
+      "store_fakeip": true,
+      "store_rdrc": true,
+      "rdrc_timeout": "7d"
+    }
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "address": ["172.19.0.1/30", "fdfe:dcba:9876::1/126"],
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": false,
+      "stack": "mixed",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 20122
+        }
+      },
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    },
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "listen_port": 20120,
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    },
+    {
+      "type": "http",
+      "tag": "http-in",
+      "listen": "127.0.0.1",
+      "listen_port": 20121,
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "Selector-A",
+      "outbounds": ["AutoTestGroup", "AutoTestGroup"],
+      "default": "AutoTestGroup",
+      "interrupt_exist_connections": true
+    },
+    {
+      "type": "selector",
+      "tag": "Selector-B",
+      "outbounds": ["AutoTestGroup", "AutoTestGroup"],
+      "default": "AutoTestGroup",
+      "interrupt_exist_connections": true
+    },
+    {
+      "type": "selector",
+      "tag": "All-Servers",
+      "interrupt_exist_connections": true,
+      "outbounds": [
+        "AutoTestGroup",
+        "direct",
+        
+"🇳🇱 @Hiddify_Nexttt کانال تلگرامی ما 0",
+        "🇪🇪 @Hiddify_Nexttt کانال تلگرامی ما 1",
+        "🇬🇧 @Hiddify_Nexttt کانال تلگرامی ما 2",
+        "🇩🇪 @Hiddify_Nexttt کانال تلگرامی ما 3",
+        "🇷🇺 @Hiddify_Nexttt کانال تلگرامی ما 4",
+        "🇺🇸 @Hiddify_Nexttt کانال تلگرامی ما 5",
+        "🇫🇮 @Hiddify_Nexttt کانال تلگرامی ما 6",
+        "🇹🇷 @Hiddify_Nexttt کانال تلگرامی ما 7",
+        "🇬🇧 Gemini  | AI @Hiddify_Nexttt کانال تلگرامی ما 8",
+        "🇭🇰 @Hiddify_Nexttt کانال تلگرامی ما 9",
+        "🇮🇳 @Hiddify_Nexttt کانال تلگرامی ما  10"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "AutoTestGroup",
+      "url": "http://cp.cloudflare.com",
+      "interval": "3m",
+      "tolerance": 150,
+      "interrupt_exist_connections": true,
+      "outbounds": [
+        
+"🇳🇱 @Hiddify_Nexttt کانال تلگرامی ما 0",
+        "🇪🇪 @Hiddify_Nexttt کانال تلگرامی ما 1",
+        "🇬🇧 @Hiddify_Nexttt کانال تلگرامی ما 2",
+        "🇩🇪 @Hiddify_Nexttt کانال تلگرامی ما 3",
+        "🇷🇺 @Hiddify_Nexttt کانال تلگرامی ما 4",
+        "🇺🇸 @Hiddify_Nexttt کانال تلگرامی ما 5",
+        "🇫🇮 @Hiddify_Nexttt کانال تلگرامی ما 6",
+        "🇹🇷 @Hiddify_Nexttt کانال تلگرامی ما 7",
+        "🇬🇧 Gemini  | AI @Hiddify_Nexttt کانال تلگرامی ما 8",
+        "🇭🇰 @Hiddify_Nexttt کانال تلگرامی ما 9",
+        "🇮🇳 @Hiddify_Nexttt کانال تلگرامی ما  10"
+      ]
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    
+
+{
+      "type": "vless",
+      "tag":"🇳🇱 @Hiddify_Nexttt کانال تلگرامی ما 0",
+      "server": "nl01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "175d"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 @Hiddify_Nexttt کانال تلگرامی ما 1",
+      "server": "est01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "86e999a2cdc2"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 @Hiddify_Nexttt کانال تلگرامی ما 2",
+      "server": "gb01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "86e999a2cdc2"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 @Hiddify_Nexttt کانال تلگرامی ما 3",
+      "server": "de01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "f79448a30d"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag":"🇷🇺 @Hiddify_Nexttt کانال تلگرامی ما 4",
+      "server": "ru01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "d3b13f31"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 @Hiddify_Nexttt کانال تلگرامی ما 5",
+      "server": "us01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "31"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 @Hiddify_Nexttt کانال تلگرامی ما 6",
+      "server": "fin01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "d3b13f31"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 @Hiddify_Nexttt کانال تلگرامی ما 7",
+      "server": "tr01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "86e999a2cdc2"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Gemini  | AI @Hiddify_Nexttt کانال تلگرامی ما 8",
+      "server": "gb02-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "175d"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 @Hiddify_Nexttt کانال تلگرامی ما 9",
+      "server": "hk01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "e499f276e7bd6420"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 @Hiddify_Nexttt کانال تلگرامی ما  10",
+      "server": "ind01-vlr01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "ff92925c-f6b7-4b0a-b1dd-30d0df12ef0b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hls-svod.itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+          "short_id": "48720c"
+        }
+      },
+      "packet_encoding": ""
+    },
+
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "reject",
+        "protocol": "quic"
+      }
+    ],
+    "rule_set": [],
+    "auto_detect_interface": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "Local-DNS",
+        "address": "https://1.1.1.1:443/dns-query",
+        "address_resolver": "Local-DNS-Resolver",
+        "strategy": "prefer_ipv4",
+        "detour": "AutoTestGroup"
+      },
+      {
+        "tag": "Local-DNS-Resolver",
+        "address": "local",
+        "address_resolver": "Local-DNS-Resolver",
+        "strategy": "prefer_ipv4",
+        "detour": "AutoTestGroup"
+      },
+      {
+        "tag": "Remote-DNS",
+        "address": "tcp://8.8.8.8",
+        "address_resolver": "Local-DNS-Resolver",
+        "detour": "AutoTestGroup"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "Local-DNS-Resolver"
+      }
+    ],
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": true,
+    "final": "Remote-DNS"
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "ir.pool.ntp.org",
+    "server_port": 123,
+    "detour": "direct"
+  }
+}
